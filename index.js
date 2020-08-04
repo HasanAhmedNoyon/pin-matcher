@@ -1,4 +1,4 @@
-//creat pin
+//create pin
 document.getElementById("createPin").addEventListener("click", function(){
     var createPin = Math.round(1000+Math.random()*9000);
     document.getElementById("pin").value = createPin;
