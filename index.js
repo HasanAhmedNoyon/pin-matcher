@@ -1,7 +1,7 @@
 //creat pin
 document.getElementById("createPin").addEventListener("click", function(){
-    var creatPin = Math.round(1000+Math.random()*9000);
-    document.getElementById("pin").value = creatPin;
+    var createPin = Math.round(1000+Math.random()*9000);
+    document.getElementById("pin").value = createPin;
 })
 
 //Display None Notification
